@@ -4,10 +4,10 @@ namespace WebApplication3.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValueController : ControllerBase
+    public class Ques1controller : ControllerBase
     {
         [HttpGet("Welcome")]
-        public ActionResult<String> GetWelcome()
+        public String Get()
         {
             return "Welcome to 5125!";
         }
