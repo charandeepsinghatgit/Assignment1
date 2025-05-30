@@ -10,6 +10,7 @@ namespace WebApplication3.Controllers
         [HttpGet("greeting")]
         public string Get(string name)
         {
+            //this method will  return the message plus the name entered
             return $"Hi {name}!";
         }
     }

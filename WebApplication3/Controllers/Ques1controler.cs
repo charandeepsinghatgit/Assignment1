@@ -6,18 +6,12 @@ namespace WebApplication3.Controllers
     [ApiController]
     public class Ques1controller : ControllerBase
     {
+        //a get request 
         [HttpGet("Welcome")]
         public String Get()
         {
+            //this method  will return the message
             return "Welcome to 5125!";
         }
-
-        //[HttpPost]
-        //public string post(string mess)
-        //{
-        //    string Message = "This is post Request";
-        //    return Message;
-        //}
-        
     }
 }

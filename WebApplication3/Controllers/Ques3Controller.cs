@@ -10,6 +10,7 @@ namespace WebApplication3.Controllers
         [HttpGet]
         public int Get(int Value)
         {
+            //this method  will return int cube of value calculated like below
             int result = Value * Value * Value;
             return result;
         }

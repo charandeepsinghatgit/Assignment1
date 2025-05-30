@@ -7,17 +7,12 @@ namespace WebApplication3.Controllers
     [ApiController]
     public class Ques4Controller : ControllerBase
     {
+        //post request created
         [HttpPost]
         public string Post()
         {
+            //returns a string to post
             return "Who’s there?";
         }
-
-        //[HttpPost]
-        //public string post()
-        //{
-        //    string Message = "This is post Request";
-        //    return Message;
-        //}
     }
 }

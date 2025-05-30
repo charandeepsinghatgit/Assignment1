@@ -10,6 +10,7 @@ namespace WebApplication3.Controllers
         [HttpPost]
         public string Post([FromBody] int secret)
         {
+            //returns messasge plus the secret fetched from input value (int)
              return $"Shh.. the secret is {secret}";
         }
     }
